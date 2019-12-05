@@ -9,5 +9,6 @@ if (myArray.length === 0) {
 }
 
 console.group('vowels')
+
 'aeiou'.split('').map((vowel, index) => console.log(`${index}: ${vowel}`))
 console.groupEnd()
