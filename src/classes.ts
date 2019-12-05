@@ -4,15 +4,15 @@
 // CLASESS
 // ----------------------------------
 class MyClass {
+  name: string
   constructor() {
-    'MyClass'
+    this.name = 'MyClass...'
   }
 
-  sayHay() {
+  sayHi(): void {
     console.log('Hi ' + this.name)
   }
 }
 
-MyClass.sayHay()
-const myClass = new MyClass()
-myClass.sayHay()
+const myClassInstance = new MyClass()
+myClassInstance.sayHi()

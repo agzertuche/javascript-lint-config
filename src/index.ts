@@ -15,4 +15,4 @@
   console.log(letKeyword)
 }
 
-console.log(varKeyword.TOUPPERCASE())
+console.log(varKeyword.toUpperCase())

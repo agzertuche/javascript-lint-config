@@ -3,11 +3,11 @@
 // ----------------------------------
 // ARRAYS
 // ----------------------------------
-var myArray = null
+const myArray: Array<string> = []
 if (myArray.length === 0) {
   console.log('Your array is empty... 🤷‍♂️')
 }
 
 console.group('vowels')
-'aeiou'.map((vowel, index) => console.log(`${index}: ${vowel}`))
-console.groupEnd('vowels')
+'aeiou'.split('').map((vowel, index) => console.log(`${index}: ${vowel}`))
+console.groupEnd()
