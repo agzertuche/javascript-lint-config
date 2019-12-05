@@ -4,24 +4,15 @@
 // ----------------------------------
 // FORMAT STYLE
 // ----------------------------------
-console.log("I'm missing a semicolon -->");
-
+console.log("I'm missing a semicolon -->")
 
 // eslint-disable-next-line no-unused-vars
-const unformattedVariable =
+const unformattedVariable = 'I like to be on the center of the file'
 
+const question = 'What is this'
 
-
-              'I like to be on the center of the file';
-
-
-
-
-const question =
-  'What is this'  ;
-
-const answer =
-  'string interpolation';console.log(`
+const answer = 'string interpolation'
+console.log(`
   Q: ${question}?
   R: ${answer}
-`);
+`)

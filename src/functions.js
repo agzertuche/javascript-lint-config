@@ -4,9 +4,11 @@
 // FUNCTIONS
 // ----------------------------------
 var addTwoNumbers = (x, y) => {
-  x + y;
-};
-console.assert(addTwoNumbers(1, 2), "Should be equal to 3");
+  x + y
+}
+console.assert(addTwoNumbers(1, 2), 'Should be equal to 3')
 
-var createFooObject = () => { 1; };
-console.assert(createFooObject.foo == 1, "Foo value should be equal to 1");
+var createFooObject = () => {
+  1
+}
+console.assert(createFooObject.foo == 1, 'Foo value should be equal to 1')

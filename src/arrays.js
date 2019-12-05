@@ -3,11 +3,11 @@
 // ----------------------------------
 // ARRAYS
 // ----------------------------------
-var myArray = null;
+var myArray = null
 if (myArray.length === 0) {
-  console.log("Your array is empty... 🤷‍♂️");
+  console.log('Your array is empty... 🤷‍♂️')
 }
 
-console.group("vowels");
-"aeiou".map((vowel, index) => console.log(`${index}: ${vowel}`));
-console.groupEnd("vowels");
+console.group('vowels')
+'aeiou'.map((vowel, index) => console.log(`${index}: ${vowel}`))
+console.groupEnd('vowels')

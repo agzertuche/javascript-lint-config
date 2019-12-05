@@ -5,7 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "lint": "eslint . --ignore-path .gitignore"
+    "lint": "eslint . --ignore-path .gitignore",
+    "format": "prettier \"**/*.+(js|json|md|css)\" --ignore-path .gitignore",
+    "format:fix": "npm run format -- --write",
+    "validate": "npm run format:fix && npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,8 @@
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "eslint": "^6.7.2"
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "prettier": "^1.19.1"
   }
 }

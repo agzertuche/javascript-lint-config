@@ -5,14 +5,14 @@
 // ----------------------------------
 class MyClass {
   constructor() {
-    "MyClass";
+    'MyClass'
   }
 
   sayHay() {
-    console.log("Hi " + this.name);
+    console.log('Hi ' + this.name)
   }
 }
 
-MyClass.sayHay();
-const myClass = new MyClass();
-myClass.sayHay();
+MyClass.sayHay()
+const myClass = new MyClass()
+myClass.sayHay()
