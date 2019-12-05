@@ -8,8 +8,6 @@
 
   const constKeyword = "😠 I'm refused to be reasinged!";
   console.log(constKeyword);
-  constKeyword = "const keyword doesn't like this";
-  console.log(constKeyword);
 
   let letKeyword = "I love changes! 😄";
   console.log(letKeyword);
@@ -18,5 +16,3 @@
 }
 
 console.log(varKeyword.TOUPPERCASE());
-console.log(constKeyword);
-console.log(letKeyword);

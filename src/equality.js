@@ -8,7 +8,7 @@ console.assert(1 === "1", "Strict equality");
 
 var myNumber = 8;
 console.log("My number is:" + myNumber);
-if (myNumber = 10) {
+if (myNumber == 10) {
   console.log("You're wrong! 👎");
 } else {
   console.log("You're right! 👍");

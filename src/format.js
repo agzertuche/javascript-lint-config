@@ -1,11 +1,13 @@
+/* eslint-disable no-unused-vars */
 // !IMPORTANT NOTE: this is a sample file with JavaScript errors in order to fix them using static analysis tools
 
 // ----------------------------------
 // FORMAT STYLE
 // ----------------------------------
-console.log("I'm missing a semicolon -->")
+console.log("I'm missing a semicolon -->");
 
 
+// eslint-disable-next-line no-unused-vars
 const unformattedVariable =
 
 
@@ -21,5 +23,5 @@ const question =
 const answer =
   'string interpolation';console.log(`
   Q: ${question}?
-  R: ${answers}
+  R: ${answer}
 `);

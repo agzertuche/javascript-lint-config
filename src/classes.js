@@ -5,7 +5,7 @@
 // ----------------------------------
 class MyClass {
   constructor() {
-    name: "MyClass";
+    "MyClass";
   }
 
   sayHay() {
